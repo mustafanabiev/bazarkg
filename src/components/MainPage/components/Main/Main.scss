@@ -1,0 +1,117 @@
+@import 'var';
+// =============PRODUCT=================
+.product_info {
+  display: flex;
+  flex-direction: column;
+
+  & h2 {
+    margin: 40px 0px 20px 0px;
+  }
+
+  .product_nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center;
+
+    .product_menu {
+      display: flex;
+      align-items: center;
+
+      & li {
+        margin-right: 20px;
+      }
+
+      & li:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .product_filter {
+      display: flex;
+      align-items: center;
+      border: 1px solid black;
+      padding: 6px 10px;
+      cursor: pointer;
+
+      & img {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .product_wrap {
+    display: flex;
+    margin-top: 30px;
+    margin-right: -20px;
+    flex-flow: wrap;
+
+    .product_block {
+      width: 25%;
+      padding-right: 20px;
+      margin-bottom: 30px;
+
+      .product_inblock {
+        width: 100%;
+        height: 350px;
+        background-color: $grey;
+        position: relative;
+
+        .product_promotion {
+          color: $white;
+          width: 70px;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: linear-gradient(238deg, transparent 18px, $red2 0);
+          position: absolute;
+          bottom: 0px;
+        }
+      }
+
+      .product_price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        & h4 {
+          font-weight: 600;
+        }
+
+        & h4:nth-child(1) {
+          text-decoration: line-through;
+        }
+      }
+
+      & h3 {
+        color: $grey2;
+        font-weight: normal;
+        font-size: 15px;
+        margin: 5px 0px;
+      }
+
+      & p {
+        font-weight: 460;
+        font-size: 15px;
+      }
+    }
+  }
+
+  & > a {
+    border: 1px solid $black;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+    & img {
+      margin-left: 10px;
+    }
+  }
+}
+
+// =============PRODUCT=================

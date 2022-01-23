@@ -1,0 +1,52 @@
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+
+.footer .footer_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer_info .footer_block {
+    width: 175px;
+}
+
+.footer .footer_info .footer_block h3 {
+    margin: 20px 0px;
+    font-size: 15px;
+}
+
+.footer .footer_info .footer_block li {
+    margin-bottom: 7px;
+    font-size: 13px;
+}
+
+.footer .footer_info .footer_block li a:hover {
+    color: #eba930;
+}
+
+.footer .footer_info .footer_block .footer_payments {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer_info .footer_block img {
+    width: 45px;
+}
+
+.footer > p {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 10px 0px;
+}
+
+.footer > p img {
+    margin-right: 5px;
+}
+
+/*# sourceMappingURL=Footer.css.map */

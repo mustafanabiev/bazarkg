@@ -1,0 +1,97 @@
+.product_info {
+  display: flex;
+  flex-direction: column;
+}
+.product_info h2 {
+  margin: 40px 0px 20px 0px;
+}
+.product_info .product_nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  align-items: center;
+}
+.product_info .product_nav .product_menu {
+  display: flex;
+  align-items: center;
+}
+.product_info .product_nav .product_menu li {
+  margin-right: 20px;
+}
+.product_info .product_nav .product_menu li:hover {
+  text-decoration: underline;
+}
+.product_info .product_nav .product_filter {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+.product_info .product_nav .product_filter img {
+  margin-right: 5px;
+}
+.product_info .product_wrap {
+  display: flex;
+  margin-top: 30px;
+  margin-right: -20px;
+  flex-flow: wrap;
+}
+.product_info .product_wrap .product_block {
+  width: 25%;
+  padding-right: 20px;
+  margin-bottom: 30px;
+}
+.product_info .product_wrap .product_block .product_inblock {
+  width: 100%;
+  height: 350px;
+  background-color: #dadedf;
+  position: relative;
+}
+.product_info .product_wrap .product_block .product_inblock .product_promotion {
+  color: white;
+  width: 70px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(238deg, transparent 18px, #e13636 0);
+  position: absolute;
+  bottom: 0px;
+}
+.product_info .product_wrap .product_block .product_price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product_info .product_wrap .product_block .product_price h4 {
+  font-weight: 600;
+}
+.product_info .product_wrap .product_block .product_price h4:nth-child(1) {
+  text-decoration: line-through;
+}
+.product_info .product_wrap .product_block h3 {
+  color: #4f4f4f;
+  font-weight: normal;
+  font-size: 15px;
+  margin: 5px 0px;
+}
+.product_info .product_wrap .product_block p {
+  font-weight: 460;
+  font-size: 15px;
+}
+.product_info > a {
+  border: 1px solid black;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.product_info > a img {
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=Main.css.map */

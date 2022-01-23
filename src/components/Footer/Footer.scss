@@ -1,0 +1,54 @@
+@import 'var';
+// =============FOOTER==================
+.footer {
+  background-color: $black;
+  display: flex;
+  flex-direction: column;
+  color: $white;
+  align-items: center;
+
+  .footer_info {
+    display: flex;
+    justify-content: space-between;
+
+    .footer_block {
+      width: 175px;
+
+      & h3 {
+        margin: 20px 0px;
+        font-size: 15px;
+      }
+
+      & li {
+        margin-bottom: 7px;
+        font-size: 13px;
+      }
+
+      & li a:hover {
+        color: $orange;
+      }
+
+      .footer_payments {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      & img {
+        width: 45px;
+      }
+    }
+  }
+
+  & > p {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 10px 0px;
+
+    & img {
+      margin-right: 5px;
+    }
+  }
+}
+
+// =============FOOTER==================

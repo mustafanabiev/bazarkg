@@ -1,0 +1,10 @@
+body {
+  font-family: "Montserrat";
+}
+
+.active {
+  text-decoration: underline;
+  color: #3349e3;
+}
+
+/*# sourceMappingURL=MainPage.css.map */
